@@ -26,4 +26,6 @@ function pivotIndex(array, mid=1) {
     return -1;
 }
 
+//instead of calculating sum with a function each time, could just add the value at the additional index
+
 module.exports = pivotIndex;
