@@ -5,7 +5,6 @@ function averagePair(array, target, left=0, right=array.length - 1) {
         let avg = (array[left] + array[right]) / 2.0
 
         if(avg === target){
-            console.log(true)
             return true;
         } else if(avg < target) {
             left++;
